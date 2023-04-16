@@ -13,3 +13,11 @@ Android app used to log trips. Users can input a title, destination, duration, d
 ![Model View Controller UML for Item UI](https://user-images.githubusercontent.com/69287038/232345650-0edc70e9-eef0-463b-9ff9-6b50d6bdebdd.png)
 
 `The image above shows the MVC for the item UI. The TripFragment hosts all the elements or components for the fragment_trip.xml. This includes Buttons, EditText fields and an ImageView. Much like the TLF, the TripFragment inflates the xml file and returns a view for the MainActivity to host. OnStart of the fragment, all user inputs are setup with TextWatchers and OnClickListeners which update the database when any values are changed. The TripFragment uses an instance of TripDetailViewModel (TDVM) to populate the view with data found in the database. The Trip Fragment also observes TDVM’s tripLiveData so that the UI can be updated whenever new data is published.`
+
+![Database Schema](https://user-images.githubusercontent.com/69287038/232346055-795664e1-ee47-423d-b3c7-0465180a551d.png)
+
+`This schema represents the structure of the database and the tables in it. For each trip, the id, title, destination, and duration are stored as text while the date is stored as an Integer.`
+
+![Database UML](https://user-images.githubusercontent.com/69287038/232346036-d5f3a267-64ce-483d-908a-dec2d4a9aaa3.png)
+
+`The TripDatabase class is annotated as the database (represents the database in the app) while the Trip entity class (not displayed) is used to manage and generate the tables. The TripTypeConverter class is annotated as the type-converter for the database. It defines how to convert specific data types into formats the database can store and how to convert them back to their original type on retrieval. Finally, TripDao is annotated as the data access object which allows it to define the functions used for querying the database.`
