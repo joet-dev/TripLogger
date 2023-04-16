@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Trip Logger</string>
+    <string name="trip_title_label">Title</string>
+    <string name="trip_title_hint">Enter title here.</string>
+    <string name="trip_destination_label">Destination</string>
+    <string name="trip_destination_hint">Enter destination here.</string>
+    <string name="trip_duration_label">Duration</string>
+    <string name="trip_duration_hint">Enter duration here.</string>
+    <string name="trip_image_description">Image of trip.</string>
+    <string name="trip_share_label">Share Trip</string>
+
+    <string name="trip_reset">Reset</string>
+    <string name="new_trip">New Trip</string>
+
+    <string name="delete_trip">Delete</string>
+
+    <string name="trip_details">%1$s!\nWent on a trip to %2$s for %3$s on %4$s.
+    </string>
+    <string name="trip_subject">Trip Logger: Trip Details</string>
+
+    <string name="preset_item_title">Trip Title</string>
+    <string name="preset_item_destination">Trip Destination</string>
+    <string name="preset_item_date">Trip Date</string>
+
+</resources>
