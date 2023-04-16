@@ -1,1 +1,2 @@
-# Starting code for CSC202 Assignment
+# Trip Logger 
+*`Created 2021`*
