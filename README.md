@@ -1,10 +1,10 @@
 # Trip Logger 
 *`Created 2021`*
 
-# Description 
+## Description 
 Android app used to log trips. Users can input a title, destination, duration, date, and include an image.
 
-# Technical Details
+## Technical Details
 
 ![Model View Controller UML for List UI](https://user-images.githubusercontent.com/69287038/232345601-fb528efd-ed40-4cfc-b950-b3bcd713d7fd.png)
 
