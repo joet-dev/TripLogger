@@ -1,4 +1,4 @@
-# Trip Logger 
+# Trip Logger :sunrise_over_mountains:
 *`Created 2021`*
 
 ## Description 
